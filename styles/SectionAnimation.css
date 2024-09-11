@@ -1,0 +1,44 @@
+.animated-section {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease, transform 0.8s ease, margin 0.8s ease;
+  }
+
+  .left-div, .right-div {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease, margin 0.8s ease;
+  }
+  
+  /* Active state when the section is visible */
+  .animated-section.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .animated-section.active .left-div {
+    opacity: 1;
+    transform: translateX(0); /* Small movement */
+    margin-right: 20px; /* Small margin between elements */
+  }
+  
+  .animated-section.active .right-div {
+    opacity: 1;
+    transform: translateX(0);
+    margin-left: 20px; /* Small margin between elements */
+  }
+
+  /* Transition when scrolling off the viewport */
+  .animated-section:not(.active) .left-div, 
+  .animated-section:not(.active) .right-div {
+    opacity: 0;
+    transform: translateX(-50px); /* Move a small distance off */
+    margin-right: 50px; /* Increase margin while disappearing */
+  }
+  
+  .animated-section:not(.active) .right-div {
+    opacity: 0;
+    transform: translateX(50px); /* Move a small distance off */
+    margin-left: 50px; /* Increase margin while disappearing */
+  }
+  

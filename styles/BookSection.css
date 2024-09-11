@@ -1,0 +1,88 @@
+.book-section {
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.book-section .title span {
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 500;
+    color: #d05c65;
+    font-size: 1.2em;
+}
+
+.book-section .title {
+    margin-bottom: 45px;
+}
+
+.book-section h2 {
+    font-family: var(--font-philosopher), sans-serif;
+    color: #2f4858;
+    font-size: 2em;
+}
+  
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 92%;
+    max-width: 1300px;
+    margin: auto auto;
+}
+  
+.book-cover {
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buy-button {
+    width: 100%;
+}
+
+.book-section .title span {
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 500;
+    color: #d05c65;
+    font-size: 1.2em;
+}
+
+.book-section h2 {
+    font-family: var(--font-philosopher), sans-serif;
+    color: #2f4858;
+    font-size: 2em;
+}
+
+.text-content {
+    max-width: 500px;
+    text-align: left;
+}
+  
+  
+.book-description {
+    font-size: 1.4em;
+    color: #676768;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: var(--font-poppins), sans-serif;
+    line-height: 1.75;
+}
+  
+  
+/* Responsive design adjustments */
+@media (max-width: 863px) {
+    .content-container {
+      flex-direction: column;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+  
+    .book-cover {
+      width: 80%;
+    }
+}
+  

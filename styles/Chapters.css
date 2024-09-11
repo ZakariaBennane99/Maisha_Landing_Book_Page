@@ -1,0 +1,93 @@
+.chapters-container {
+    background-color: #ead8d5;
+    padding-top: 70px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.chapters-container .title {
+    margin-bottom: 15px;
+}
+
+.chapters-container .title span {
+    font-family: var(--font-poppins), sans-serif;
+    font-weight: 500;
+    color: #d05c65;
+    font-size: 1.2em;
+}
+
+.chapters-container h2 {
+    font-family: var(--font-philosopher), sans-serif;
+    color: #2f4858;
+    font-size: 2em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+    gap: 30px;
+    padding: 20px;
+    width: 92%;
+    max-width: 1300px;
+    margin: auto auto;
+}
+  
+.chapterBox {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.chapterBox h2 {
+    font-family: var(--font-philosopher), sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    color: #2f4858;
+}
+  
+.chapterBox h3 {
+    font-family: var(--font-poppins), sans-serif;
+    font-size: 1em;
+    margin: 6px 0;
+    font-weight: 500;
+    color: #676768;
+}
+  
+.chapterBox p {
+    font-family: var(--font-poppins), sans-serif;
+    font-size: .95em;
+    color: #676768;
+    line-height: 1.8;
+}
+  
+@media (max-width: 900px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet screens */
+    }
+}
+  
+@media (max-width: 750px) {
+    .grid {
+      grid-template-columns: 1fr; /* 1 column for mobile screens */
+    }
+  
+    .chapterBox h2 {
+      font-size: 1rem;
+    }
+  
+    .chapterBox h3 {
+      font-size: 0.9rem;
+    }
+  
+    .chapterBox p {
+      font-size: 0.8rem;
+    }
+}
+  
