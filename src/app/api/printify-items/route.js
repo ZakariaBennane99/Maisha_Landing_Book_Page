@@ -4,7 +4,7 @@ import axios from 'axios';
 export async function GET() {
   try {
     const apiToken = process.env.PRINTIFY_API_TOKEN;
-    const response = await axios.get('https://api.printify.com/v1/shops/18023896/products.json', {
+    const response = await axios.get('https://api.printify.com/v1/shops/18101519/products.json', {
       headers: {
         'Authorization': `Bearer ${apiToken}`,
       },
