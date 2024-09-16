@@ -1,7 +1,7 @@
 .merch-section {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #ead8d5;
+  background-color: #fff;
   text-align: center;
 }
   
@@ -17,19 +17,24 @@
 .merch-section .title span {
   font-family: var(--font-poppins), sans-serif;
   font-weight: 500;
-  color: #d05c65;
+  color: #fe69b2;
   font-size: 1.2em;
 }
 
 .merch-section #sec-ti {
   font-family: var(--font-philosopher), sans-serif;
-  color: #2f4858;
+  color: #002d44;
   font-size: 2em;
+}
+
+.slick-list  {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .merch-section .merch-title {
   font-family: var(--font-philosopher), sans-serif;
-  color: #2f4858;
+  color: #002d44;
   font-size: 1em;
   margin: 10px 0;
 }
@@ -151,12 +156,13 @@
   
   
 .merch-item {
-    cursor: pointer;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background: white;
-    padding: 20px;
-    transition: transform 0.3s ease;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+  transition: transform 0.3s ease;
 }
 
 
@@ -170,6 +176,11 @@
     font-size: 1.2em;
     font-weight: 500;
 }
+
+#merch-buy:hover {
+  background-color: #ffffff; 
+  color: #002d44;
+}
   
 .merch-item:hover {
     transform: scale(1.05);
@@ -182,7 +193,7 @@
 
   
 .merch-price {
-    color: #b04d53;
+    color: #fe69b2;
 }
   
 .purchase-panel {

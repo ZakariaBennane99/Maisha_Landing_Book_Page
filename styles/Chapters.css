@@ -1,5 +1,5 @@
 .chapters-container {
-    background-color: #ead8d5;
+    background-color: #fff;
     padding-top: 70px;
     text-align: center;
     padding-top: 70px;
@@ -13,13 +13,13 @@
 .chapters-container .title span {
     font-family: var(--font-poppins), sans-serif;
     font-weight: 500;
-    color: #d05c65;
+    color: #fe69b2;
     font-size: 1.2em;
 }
 
 .chapters-container h2 {
     font-family: var(--font-philosopher), sans-serif;
-    color: #2f4858;
+    color: #002d44;
     font-size: 2em;
 }
 
@@ -49,7 +49,7 @@
     font-size: 1.5em;
     margin: 0;
     font-weight: bold;
-    color: #2f4858;
+    color: #002d44;
 }
   
 .chapterBox h3 {

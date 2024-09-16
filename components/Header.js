@@ -29,10 +29,10 @@ export default function Header() {
       <nav className={`nav ${isMobileMenuOpen ? 'open' : ''}`}>
         <ul>
           <li><a onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} href="#">Home</a></li>
-          <li><a onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} href="#about">About</a></li>
           <li><a onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} href="#chapters">Chapters</a></li>
           <li><a onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} href="#order">Order</a></li>
           <li><a onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} href="#merch">Merch</a></li>
+          <li><a onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} href="#about">About</a></li>
           <li><a onClick={() => setMobileMenuOpen(!isMobileMenuOpen)} href="#contact">Contact</a></li>
         </ul>
       </nav>

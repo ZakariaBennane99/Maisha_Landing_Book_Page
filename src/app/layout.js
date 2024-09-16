@@ -29,10 +29,10 @@ export default function Layout() {
       <body className={`${poppins.variable} ${philosopher.variable}`}>
         <Header />
         <Hero />
-        <About />
         <ChapterGrid />
         <Order />
         <Merch />
+        <About />
         <Contact />
         <Footer />
       </body>

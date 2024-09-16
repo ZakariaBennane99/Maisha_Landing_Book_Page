@@ -52,7 +52,7 @@ export default function About() {
       <div ref={sectionRef} className="main animated-section">
         
         <div className="left-div">
-          <img src='images/maisha2.jpg' />
+          <img src='images/maisha1.jpg' />
         </div>
         <div class="right-div">
           <p>I never imagined that I would one day be writing my autobiography. I never thought I would overcome the challenges and hardships that I went through. But as Romans 8:31 reminds us, “If God is for us, who can be against us?” And according to Romans 8:37, “We are more than conquerors through him who loved us.”</p>
@@ -82,7 +82,7 @@ export default function About() {
           <p>Yet, through my faith, I have come to understand that God has reassured me that I am not an accident but rather a precious creation of His divine handiwork. Ephesians 2:10: “For we are his workmanship; created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.”</p>
         </div>
         <div className="right-div">
-          <img src='images/maisha3.jpg' />
+          <img src='images/maisha2.jpg' />
         </div>
       </div>
     </section>

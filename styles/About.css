@@ -2,7 +2,7 @@
 /* about.css */
 
 .about-section {
-    background-color: white;
+    background-color: #dbfdfd;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 80px;
@@ -15,13 +15,13 @@
 .about-section .title span {
     font-family: var(--font-poppins), sans-serif;
     font-weight: 500;
-    color: #d05c65;
+    color: #fe69b2;
     font-size: 1.2em;
 }
 
 .about-section h2 {
     font-family: var(--font-philosopher), sans-serif;
-    color: #2f4858;
+    color: #002d44;
     font-size: 2em;
 }
 
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d05c65;
+    background-color: #eb318b;
     border-radius: 4px;
     width: 495px;
     height: 730px;
@@ -57,7 +57,7 @@
 .about-section .main-2 .left-div {
     text-align: start;
     line-height: 1.7;
-    color: #676768;
+    color: #406176;
     width: 50%;
     font-family: var(--font-poppins), sans-serif;
     font-size: 1.16em;
@@ -128,7 +128,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #d05c65;
+        background-color: #eb318b;
         border-radius: 4px;
         width: 89vw;
         height: fit-content;

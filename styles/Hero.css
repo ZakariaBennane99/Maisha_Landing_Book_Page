@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ead8d5;
+    background-color: #dbfdfd;
     overflow: hidden;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .hero-info-part .description {
-    color: #676768;
+    color: #406176;
     font-family: var(--font-poppins), sans-serif;
     font-size: 1.5em;
 }
@@ -44,7 +44,7 @@
 .hero-info-part .who {
     font-family: var(--font-poppins), sans-serif;
     font-size: 1.25em;
-    color: #d05c65;
+    color: #fe69b2;
     font-weight: 500;
     font-style:initial;
 }
@@ -52,13 +52,13 @@
 .hero-info-part .hello {
     font-family: var(--font-poppins), sans-serif;
     font-size: 2em;
-    color: #d05c65;
+    color: #fe69b2;
     font-weight: 600;
 }
 
 .hero-info-part .Iam {
     font-family: var(--font-philosopher), sans-serif;
-    color: #2f4858;
+    color: #002d44;
     font-size: 3.8em;
     margin-bottom: 10px;
 }
@@ -73,13 +73,11 @@
     height: 100%;
     border-radius: 4px;
     z-index: 10000;
-    border: 1.5px solid rgba(0, 0, 0, 0.3);
 }
 
 /* General container styling */
 .hero-image-part {
     position: relative;
-    width: 300px; /* Adjust to fit your image width */
     margin: 20px auto;
     margin-right: 20px;
 }
@@ -144,7 +142,7 @@
 .ring {
     opacity: .2;
     position: absolute;
-    border: 5px solid #d05c65;
+    border: 5px solid #fe69b2;
     border-radius: 50%;
     opacity: 0.7;
     animation: moveRing 45s linear infinite;
@@ -191,8 +189,8 @@
     padding: 10px 20px;
     color: #fff;
     font-family: var(--font-poppins), sans-serif;
-    background-color: #d05c65;
-    border: 2px solid #d05c65;
+    background-color: #002d44;
+    border: 2px solid #002d44;
     text-transform: uppercase;
     border-radius: 4px;
     cursor: pointer;
@@ -201,8 +199,8 @@
 
 .hero-button-1:hover,
 .buy-button:hover {
-    background-color: #fff; 
-    color: #d05c65; 
+    background-color: transparent;
+    color: #002d44;
 }
 
 
@@ -216,7 +214,7 @@
     margin-right: 20px;
     font-size: 1.2em;
     padding: 15px 20px;
-    color: #d05c65; /* Initial text color */
+    color: #002d44; 
     background-color: transparent; /* No background initially */
     border: none; /* No border initially */
     cursor: pointer;
@@ -238,8 +236,8 @@
     left: 0;
     right: 0;
     height: 0;
-    border-left: 2px solid #d05c65;
-    border-right: 2px solid #d05c65;
+    border-left: 2px solid #002d44; 
+    border-right: 2px solid #002d44; 
     transition: height 0.4s ease, top 0.4s ease; /* Transition for the borders */
   }
   
@@ -250,7 +248,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #d05c65; /* Background color to fill on hover */
+    background-color: #002d44;  /* Background color to fill on hover */
     z-index: -1; /* Place behind the text */
     transform: scaleX(0); /* Initially scale the background to 0 */
     transform-origin: left;

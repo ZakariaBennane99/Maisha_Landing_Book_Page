@@ -20,12 +20,8 @@ export default function Hero() {
         </div>
 
         <div className="hero-image-part">
-          <div className="image-frames-container">
             <div className="image-container">
-              <img src='images/maisha1.jpg' />
-            </div>
-            <div className="frame-2"></div>
-            <div className="frame-3"></div>
+              <img src='book-cover.svg' />
           </div>
         </div>
 

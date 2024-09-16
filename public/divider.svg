@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg width='100px' height='17.6px' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 17.6" enable-background="new 0 0 100 17.6" xml:space="preserve">
-<rect y="8.2" opacity="0.3" fill="#DA5552" width="100" height="1.2"/>
-<rect x="51.9" y="4.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 10.3618 42.6155)" opacity="0.25" fill="#DA5552" width="9.4" height="9.4"/>
-<rect x="38.7" y="4.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 6.4825 33.2501)" opacity="0.25" fill="#DA5552" width="9.4" height="9.4"/>
-<rect x="43.8" y="2.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 8.4221 37.9328)" opacity="0.25" fill="#DA5552" width="12.4" height="12.4"/>
+	 viewBox="-233 394.9 100 17.6" enable-background="new -233 394.9 100 17.6" xml:space="preserve">
+<rect x="-233" y="403.1" opacity="0.3" fill="#FE69B2" enable-background="new    " width="100" height="1.2"/>
+<rect x="-181.1" y="399" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 -15.6528 813.9158)" opacity="0.25" fill="#FE69B2" enable-background="new    " width="9.4" height="9.4"/>
+<rect x="-194.3" y="399" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 -38.2312 823.2048)" opacity="0.25" fill="#FE69B2" enable-background="new    " width="9.4" height="9.4"/>
+<rect x="-189.2" y="397.5" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 -26.9421 818.5603)" opacity="0.25" fill="#FE69B2" enable-background="new    " width="12.4" height="12.4"/>
 </svg>

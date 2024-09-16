@@ -42,7 +42,7 @@ const BookSection = () => {
 
         <div className="content-container">
           <motion.img
-            src="book-cover.jpg"
+            src="book-cover3.svg"
             alt="Book Cover"
             className="book-cover"
             initial="hidden"

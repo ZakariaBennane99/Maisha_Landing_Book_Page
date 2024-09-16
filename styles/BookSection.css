@@ -1,5 +1,5 @@
 .book-section {
-    background-color: white;
+    background-color: #dbfdfd;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 80px;
@@ -8,7 +8,7 @@
 .book-section .title span {
     font-family: var(--font-poppins), sans-serif;
     font-weight: 500;
-    color: #d05c65;
+    color: #fe69b2;
     font-size: 1.2em;
 }
 
@@ -18,7 +18,7 @@
 
 .book-section h2 {
     font-family: var(--font-philosopher), sans-serif;
-    color: #2f4858;
+    color: #002d44;
     font-size: 2em;
 }
   
@@ -42,16 +42,9 @@
     width: 100%;
 }
 
-.book-section .title span {
-    font-family: var(--font-poppins), sans-serif;
-    font-weight: 500;
-    color: #d05c65;
-    font-size: 1.2em;
-}
-
 .book-section h2 {
     font-family: var(--font-philosopher), sans-serif;
-    color: #2f4858;
+    color: #002d44;
     font-size: 2em;
 }
 
@@ -63,7 +56,7 @@
   
 .book-description {
     font-size: 1.4em;
-    color: #676768;
+    color: #406176;
     margin-bottom: 0px;
     margin-top: 0px;
     font-family: var(--font-poppins), sans-serif;

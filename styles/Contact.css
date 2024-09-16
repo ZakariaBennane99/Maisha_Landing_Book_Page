@@ -1,7 +1,7 @@
 .contact-info .title span {
     font-family: var(--font-poppins), sans-serif;
     font-weight: 500;
-    color: #d05c65;
+    color: #fe69b2;
     font-size: 1.2em;
 }
 
@@ -11,7 +11,7 @@
 
 .contact-info h2 {
     font-family: var(--font-philosopher), sans-serif;
-    color: #2f4858;
+    color: #002d44;
     font-size: 2em;
 }
 
@@ -46,11 +46,11 @@
 }
   
 .icon {
-    color: #f87171;
+    color: #fe69b2;
 }
   
 .info-text {
-    color: #4b5563;
+    color: #676768;
 }
   
 .social-icons {
@@ -61,10 +61,10 @@
 }
   
 .social-icon {
-    color: #f87171;
+    color: #fe69b2;
     transition: color 0.3s ease;
 }
   
 .social-icon:hover {
-    color: #ef4444;
+    color: #fd3998;
 }

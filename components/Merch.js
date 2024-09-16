@@ -171,6 +171,7 @@ const MerchSlider = () => {
           )}
 
           <button 
+            id='merch-buy'
             className={`buy-button ${selectedVariant ? 'active' : 'disabled'}`}
             disabled={!selectedVariant}
             onClick={() => {
