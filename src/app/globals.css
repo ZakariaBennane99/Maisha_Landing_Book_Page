@@ -159,10 +159,6 @@ footer {
 
 @media (max-width: 995px) {
 
-  .hero-image-part {
-    margin: 0px;
-  }
-
   .nav {
     position: absolute; /* Position relative to the header */
     top: 100%; /* Place the menu right below the header */

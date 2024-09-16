@@ -285,12 +285,6 @@
 }
   
 
-@media (max-width: 950px) {
-    .hero-image-part {
-        margin: 0px;
-    }
-}
-
 
 @media (max-width: 750px) {
     .hero-content {
@@ -306,8 +300,9 @@
     }
 
     .hero-image-part {
-        margin: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
         margin-bottom: 40px;
-        margin-top: 40px;
+        margin-top: 55px;
     }
 }
